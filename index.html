@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Majestic Aura — Luxury Wedding Planning & Concept Design">
+    <title>Majestic Aura | Luxury Weddings & Concept Design</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ========== NAVBAR ========== -->
+    <nav class="navbar" id="navbar">
+      <a href="#home" class="logo" aria-label="Majestic Aura Home">
+    <div class="logo-frame">
+        <img src="logo.png" alt="Majestic Aura Logo" class="logo-img">
+    </div>
+</a>
+
+        <div class="nav-right" id="navRight">
+            <ul class="nav-links">
+                <li><a href="#home" data-en="Home" data-ar="الرئيسية">Home</a></li>
+                <li><a href="#about" data-en="About" data-ar="من نحن">About</a></li>
+                <li><a href="#services" data-en="Services" data-ar="خدماتنا">Services</a></li>
+                <li><a href="#process" data-en="Process" data-ar="مراحل العمل">Process</a></li>
+                <li><a href="#portfolio" data-en="Portfolio" data-ar="معرض أعمالنا">Portfolio</a></li>
+                <li><a href="#pricing" data-en="Packages" data-ar="الباقات">Packages</a></li>
+                <li><a href="#contact" data-en="Contact" data-ar="تواصل معنا">Contact</a></li>
+            </ul>
+            <button id="langToggle" class="lang-btn" aria-label="Switch Language">عربي</button>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Open Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <!-- ========== HERO ========== -->
+    <header id="home" class="hero">
+        <div class="hero-bg" id="heroBg"></div>
+        <div class="hero-overlay"></div>
+        <div class="particles" id="particles"></div>
+
+        <div class="hero-content">
+            <span class="hero-overline" data-en="LUXURY WEDDING PLANNING & DESIGN" data-ar="تخطيط وتصميم حفلات الزفاف الفاخرة">LUXURY WEDDING PLANNING & DESIGN</span>
+            <h1 data-en="Majestic Aura" data-ar="ماجستيك أورا">Majestic Aura</h1>
+            <p class="hero-sub" data-en="Architecting Unforgettable Royal Moments — From complex ceiling installations and bespoke floral art to venue transformations and seamless stage execution." data-ar="نُهندس لحظات ملكية لا تُنسى — من تجهيزات الأسقف المعقدة والفنون الزهرية المخصصة إلى تحويل الأماكن والتنفيذ السلس للمسرح.">Architecting Unforgettable Royal Moments</p>
+
+            <div class="hero-btns">
+                <a href="#contact" class="btn-luxury" data-en="Plan Your Dream Wedding" data-ar="خطط لحفل زفاف أحلامك">Plan Your Dream Wedding</a>
+                <a href="portfolio.html" class="btn-luxury btn-outline" data-en="Explore Our Portfolio" data-ar="استكشف معرض أعمالنا">Explore Our Portfolio</a>
+            </div>
+        </div>
+
+        <a href="#about" class="scroll-indicator" aria-label="Scroll Down">
+            <span></span>
+        </a>
+    </header>
+
+    <!-- ========== STATS ========== -->
+    <section class="stats-bar">
+        <div class="container stats-grid">
+            <div class="stat-item" data-reveal>
+                <span class="stat-number" data-target="250">0</span>
+                <span class="stat-label" data-en="Weddings Planned" data-ar="حفل زفاف تم تنظيمه">Weddings Planned</span>
+            </div>
+            <div class="stat-item" data-reveal>
+                <span class="stat-number" data-target="12">0</span>
+                <span class="stat-label" data-en="Years of Experience" data-ar="سنوات من الخبرة">Years of Experience</span>
+            </div>
+            <div class="stat-item" data-reveal>
+                <span class="stat-number" data-target="18">0</span>
+                <span class="stat-label" data-en="Countries Served" data-ar="دولة تم خدمتها">Countries Served</span>
+            </div>
+            <div class="stat-item" data-reveal>
+                <span class="stat-number" data-target="50">0</span>
+                <span class="stat-label" data-en="Expert Partners" data-ar="شريك خبير">Expert Partners</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== ABOUT ========== -->
+    <section id="about" class="about">
+        <div class="container about-grid">
+            <div class="about-text" data-reveal>
+                <span class="section-overline" data-en="ABOUT US" data-ar="من نحن">ABOUT US</span>
+                <h2 data-en="Crafting <span>Unforgettable</span> Moments" data-ar="نصنع <span>لحظات لا تُنسى</span>">Crafting <span>Unforgettable</span> Moments</h2>
+                <p data-en="At Majestic Aura, we believe your wedding day should be as extraordinary as your love story. We specialize in creating luxurious, bespoke weddings and concept designs that reflect your unique style and personality." data-ar="في ماجستيك أورا، نؤمن بأن يوم زفافك يجب أن يكون استثنائياً مثل قصة حبك. نحن متخصصون في ابتكار حفلات زفاف فاخرة وتصاميم حصرية تعكس أسلوبك وشخصيتك الفريدة.">At Majestic Aura, we believe your wedding day should be as extraordinary as your love story.</p>
+                <p data-en="From intimate gatherings to grand royal celebrations, our team of expert planners and designers works tirelessly to ensure every detail is perfection." data-ar="من التجمعات الصغيرة إلى الاحتفالات الملكية الكبرى، يعمل فريقنا من المخططين والمصممين الخبراء بلا كلل لضمان أن كل تفصيلة مثالية.">From intimate gatherings to grand royal celebrations, our team works tirelessly to ensure every detail is perfection.</p>
+
+                <div class="about-features">
+                    <div class="about-feature"><i class="fas fa-check-circle"></i> <span data-en="Bespoke Design" data-ar="تصميم مخصص">Bespoke Design</span></div>
+                    <div class="about-feature"><i class="fas fa-check-circle"></i> <span data-en="Full Coordination" data-ar="تنسيق كامل">Full Coordination</span></div>
+                    <div class="about-feature"><i class="fas fa-check-circle"></i> <span data-en="Global Vendors" data-ar="موردون عالميون">Global Vendors</span></div>
+                </div>
+
+                <a href="#contact" class="btn-luxury dark-btn" data-en="Start Planning" data-ar="ابدأ التخطيط">Start Planning</a>
+            </div>
+
+            <div class="about-media" data-reveal>
+                <div class="video-wrapper">
+                    <video src="wedding-video.mp4" controls autoplay muted loop playsinline class="about-video" poster="https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80"></video>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== SERVICES ========== -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-overline" data-en="WHAT WE DO" data-ar="ما نقدمه">WHAT WE DO</span>
+                <h2 class="section-title" data-en="Our Exclusive Services" data-ar="خدماتنا الحصرية">Our Exclusive Services</h2>
+                <p class="section-desc" data-en="Every element is designed from scratch, engineered, and executed to perfection under one roof." data-ar="كل عنصر مصمم من الصفر، ومهندس، ويُنفذ بإتقان تحت سقف واحد.">Every element is designed from scratch, engineered, and executed to perfection under one roof.</p>
+            </div>
+
+            <div class="services-grid">
+                <div class="service-card" data-reveal>
+                    <div class="service-icon"><i class="fas fa-ring"></i></div>
+                    <h3 data-en="Full Wedding Planning" data-ar="تخطيط حفلات الزفاف بالكامل">Full Wedding Planning</h3>
+                    <p data-en="Comprehensive planning from the moment you say 'Yes' until your grand exit. We handle logistics, vendors, timelines, and every detail with precision." data-ar="تخطيط شامل من لحظة قولك 'نعم' حتى خروجك الكبير. نتولى اللوجستيات والموردين والجداول الزمنية وكل تفصيلة بدقة.">Comprehensive planning from the moment you say "Yes" until your grand exit.</p>
+                </div>
+
+                <div class="service-card" data-reveal>
+                    <div class="service-icon"><i class="fas fa-paint-brush"></i></div>
+                    <h3 data-en="Concept & Design" data-ar="التصميم والأفكار الإبداعية">Concept & Design</h3>
+                    <p data-en="Bespoke thematic designs, 3D ceiling art, floral arrangements, and lighting concepts tailored to create the perfect ambiance." data-ar="تصاميم موضوعية مخصصة، فنون أسقف ثلاثية الأبعاد، تنسيقات زهور، ومفاهيم إضاءة مصممة خصيصاً لخلق الأجواء المثالية.">Bespoke thematic designs, 3D ceiling art, floral arrangements, and lighting concepts.</p>
+                </div>
+
+                <div class="service-card" data-reveal>
+                    <div class="service-icon"><i class="fas fa-map-marked-alt"></i></div>
+                    <h3 data-en="Destination Weddings" data-ar="حفلات الزفاف في الخارج">Destination Weddings</h3>
+                    <p data-en="Dreaming of a wedding in Paris, Santorini, or Dubai? We specialize in organizing luxurious destination weddings worldwide." data-ar="تحلم بحفل زفاف في باريس أو سانتوريني أو دبي؟ نحن متخصصون في تنظيم حفلات زفاف فاخرة في الخارج حول العالم.">Dreaming of a wedding in Paris, Santorini, or Dubai? We specialize in luxurious destination weddings worldwide.</p>
+                </div>
+
+                <div class="service-card" data-reveal>
+                    <div class="service-icon"><i class="fas fa-couch"></i></div>
+                    <h3 data-en="Stage & Kosha Architecture" data-ar="هندسة المسرح والكوشة">Stage & Kosha Architecture</h3>
+                    <p data-en="Custom-built main stages, backdrop installations, 3D textured arches, and personalized seating design for the couple." data-ar="بناء مسارح رئيسية مخصصة، تجهيزات خلفية، أقواس ثلاثية الأبعاد، وتصميم جلوس مخصص للعروسين.">Custom-built main stages, backdrop installations, 3D textured arches, and personalized seating design.</p>
+                </div>
+
+                <div class="service-card" data-reveal>
+                    <div class="service-icon"><i class="fas fa-lightbulb"></i></div>
+                    <h3 data-en="Lighting & Sound Engineering" data-ar="هندسة الإضاءة والصوت">Lighting & Sound Engineering</h3>
+                    <p data-en="Warm mood-setting illumination, automated spotlights, acoustic mapping, and seamless technical production." data-ar="إضاءة دافئة لخلق الأجواء، أضواء موجهة آلية، رسم خرائط صوتية، وإنتاج تقني سلس.">Warm mood-setting illumination, automated spotlights, acoustic mapping, and seamless technical production.</p>
+                </div>
+
+                <div class="service-card" data-reveal>
+                    <div class="service-icon"><i class="fas fa-door-open"></i></div>
+                    <h3 data-en="Foyer & Entrance Experience" data-ar="تجربة البهو والمدخل">Foyer & Entrance Experience</h3>
+                    <p data-en="Immersive guest entrance tunnels, custom photo moments, welcoming drinks displays, and seating chart installations." data-ar="أنفاق دخول غامرة للضيوف، لحظات تصوير مخصصة، عروض مشروبات ترحيبية، وتجهيزات مخططات الجلوس.">Immersive guest entrance tunnels, custom photo moments, welcoming drinks displays, and seating charts.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PROCESS ========== -->
+    <section id="process" class="process">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-overline" data-en="HOW WE WORK" data-ar="كيف نعمل">HOW WE WORK</span>
+                <h2 class="section-title" data-en="From Concept to Reality" data-ar="من الفكرة إلى الواقع">From Concept to Reality</h2>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-step" data-reveal>
+                    <div class="step-number">01</div>
+                    <h3 data-en="Discovery & Consultation" data-ar="الاكتشاف والاستشارة">Discovery & Consultation</h3>
+                    <p data-en="We listen to your vision, understand your style, and define the scope, budget, and timeline for your celebration." data-ar="نستمع إلى رؤيتك، نفهم أسلوبك، ونحدد النطاق والميزانية والجدول الزمني لاحتفالك.">We listen to your vision, understand your style, and define the scope, budget, and timeline.</p>
+                </div>
+
+                <div class="process-step" data-reveal>
+                    <div class="step-number">02</div>
+                    <h3 data-en="Concept & Design" data-ar="التصور والتصميم">Concept & Design</h3>
+                    <p data-en="Our designers create mood boards, 3D renderings, and detailed layouts that bring your dream wedding to life visually." data-ar="يبتكر مصممونا لوحات مزاجية، وعروض ثلاثية الأبعاد، وتخطيطات تفصيلية تجعل حفل زفاف أحلامك حياً بصرياً.">Our designers create mood boards, 3D renderings, and detailed layouts.</p>
+                </div>
+
+                <div class="process-step" data-reveal>
+                    <div class="step-number">03</div>
+                    <h3 data-en="Planning & Coordination" data-ar="التخطيط والتنسيق">Planning & Coordination</h3>
+                    <p data-en="We manage vendors, logistics, and timelines with precision, keeping you informed every step of the way." data-ar="ندير الموردين واللوجستيات والجداول الزمنية بدقة، مع إبقائك على اطلاع في كل خطوة.">We manage vendors, logistics, and timelines with precision.</p>
+                </div>
+
+                <div class="process-step" data-reveal>
+                    <div class="step-number">04</div>
+                    <h3 data-en="Execution & Celebration" data-ar="التنفيذ والاحتفال">Execution & Celebration</h3>
+                    <p data-en="On your wedding day, we orchestrate every moment flawlessly so you can simply enjoy and celebrate." data-ar="في يوم زفافك، ننسق كل لحظة ببراعة حتى تتمكن ببساطة من الاستمتاع والاحتفال.">On your wedding day, we orchestrate every moment flawlessly so you can enjoy.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PORTFOLIO PREVIEW ========== -->
+    <section id="portfolio" class="portfolio-preview">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-overline light" data-en="OUR WORK" data-ar="أعمالنا">OUR WORK</span>
+                <h2 class="section-title light" data-en="Our Masterpieces" data-ar="أعمالنا المميزة">Our Masterpieces</h2>
+                <p class="section-desc light" data-en="Step into our world of luxury. Explore hundreds of curated designs across every element of your celebration." data-ar="ادخل إلى عالمنا من الفخامة. استكشف مئات التصاميم المنتقاة عبر كل عنصر من عناصر احتفالك.">Step into our world of luxury. Explore hundreds of curated designs across every element of your celebration.</p>
+            </div>
+
+            <div class="portfolio-cta" data-reveal>
+                <a href="portfolio.html" class="btn-luxury portfolio-enter-btn">
+                    <i class="fas fa-crown"></i>
+                    <span data-en="Enter The Gallery" data-ar="ادخل إلى المعرض">Enter The Gallery</span>
+                    <i class="fas fa-arrow-right arrow-icon"></i>
+                </a>
+                <p class="cta-hint" data-en="8 Categories · Hundreds of Designs" data-ar="8 فئات · مئات التصاميم">8 Categories · Hundreds of Designs</p>
+            </div>
+
+            <div class="portfolio-preview-grid" data-reveal>
+                <div class="preview-item">
+                    <img src="https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=600&q=80" alt="Kosha">
+                    <div class="preview-overlay"><span data-en="The Kosha" data-ar="الكوشة">The Kosha</span></div>
+                </div>
+                <div class="preview-item">
+                    <img src="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=600&q=80" alt="Centerpiece">
+                    <div class="preview-overlay"><span data-en="Centerpiece" data-ar="سنتربيس">Centerpiece</span></div>
+                </div>
+                <div class="preview-item">
+                    <img src="https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=600&q=80" alt="Lighting">
+                    <div class="preview-overlay"><span data-en="Light System" data-ar="نظام الإضاءة">Light System</span></div>
+                </div>
+                <div class="preview-item">
+                    <img src="https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=600&q=80" alt="Ceiling">
+                    <div class="preview-overlay"><span data-en="Ceiling Art" data-ar="فنون الأسقف">Ceiling Art</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== PRICING ========== -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-overline" data-en="PACKAGES" data-ar="الباقات">PACKAGES</span>
+                <h2 class="section-title" data-en="Tailored To Your Needs" data-ar="مصممة حسب احتياجاتك">Tailored To Your Needs</h2>
+                <p class="section-desc" data-en="Choose the level of support that suits your celebration. All packages are fully customizable." data-ar="اختر مستوى الدعم الذي يناسب احتفالك. جميع الباقات قابلة للتخصيص بالكامل.">Choose the level of support that suits your celebration.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <div class="pricing-card" data-reveal>
+                    <div class="pricing-header">
+                        <h3 data-en="Partial Planning" data-ar="تخطيط جزئي">Partial Planning</h3>
+                        <div class="price"><span data-en="From" data-ar="من">From</span> <strong>$2,500</strong></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> <span data-en="Vendor recommendations" data-ar="توصيات الموردين">Vendor recommendations</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Design consultation" data-ar="استشارة تصميم">Design consultation</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Timeline management" data-ar="إدارة الجدول الزمني">Timeline management</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Day-of coordination" data-ar="تنسيق يوم الزفاف">Day-of coordination</span></li>
+                        <li class="disabled"><i class="fas fa-times"></i> <span data-en="Full venue styling" data-ar="تنسيق المكان بالكامل">Full venue styling</span></li>
+                    </ul>
+                    <a href="#contact" class="btn-luxury dark-btn full-width" data-en="Choose Plan" data-ar="اختر الباقة">Choose Plan</a>
+                </div>
+
+                <div class="pricing-card featured" data-reveal>
+                    <div class="popular-badge" data-en="Most Popular" data-ar="الأكثر طلباً">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3 data-en="Full Planning" data-ar="تخطيط كامل">Full Planning</h3>
+                        <div class="price"><span data-en="From" data-ar="من">From</span> <strong>$6,500</strong></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> <span data-en="Everything in Partial" data-ar="كل ما في الجزئي">Everything in Partial</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Full design & styling" data-ar="تصميم وتنسيق كامل">Full design & styling</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Ceiling & stage art" data-ar="فنون الأسقف والمسرح">Ceiling & stage art</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Floral arrangements" data-ar="تنسيقات زهور">Floral arrangements</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Lighting & sound" data-ar="إضاءة وصوت">Lighting & sound</span></li>
+                    </ul>
+                    <a href="#contact" class="btn-luxury full-width" data-en="Choose Plan" data-ar="اختر الباقة">Choose Plan</a>
+                </div>
+
+                <div class="pricing-card" data-reveal>
+                    <div class="pricing-header">
+                        <h3 data-en="Destination" data-ar="في الخارج">Destination</h3>
+                        <div class="price"><span data-en="From" data-ar="من">From</span> <strong>$12,000</strong></div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="fas fa-check"></i> <span data-en="Everything in Full" data-ar="كل ما في الكامل">Everything in Full</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Location scouting" data-ar="استكشاف الموقع">Location scouting</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Travel coordination" data-ar="تنسيق السفر">Travel coordination</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="Local vendor network" data-ar="شبكة موردين محلية">Local vendor network</span></li>
+                        <li><i class="fas fa-check"></i> <span data-en="On-site management" data-ar="إدارة في الموقع">On-site management</span></li>
+                    </ul>
+                    <a href="#contact" class="btn-luxury dark-btn full-width" data-en="Choose Plan" data-ar="اختر الباقة">Choose Plan</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FAQ ========== -->
+    <section class="faq">
+        <div class="container">
+            <div class="section-header" data-reveal>
+                <span class="section-overline" data-en="FAQ" data-ar="الأسئلة الشائعة">FAQ</span>
+                <h2 class="section-title" data-en="Frequently Asked Questions" data-ar="الأسئلة الشائعة">Frequently Asked Questions</h2>
+            </div>
+
+            <div class="faq-list" data-reveal>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-en="How far in advance should I book?" data-ar="متى يجب أن أحجز؟">How far in advance should I book?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-en="For full planning, we recommend booking 12-18 months before your wedding date. For partial planning, 6-9 months is ideal. However, we do accommodate last-minute requests when possible." data-ar="للتخطيط الكامل، نوصي بالحجز قبل 12-18 شهراً من تاريخ زفافك. للتخطيط الجزئي، 6-9 أشهر مثالية. ومع ذلك، نستوعب الطلبات المتأخرة عندما يكون ذلك ممكناً.">For full planning, we recommend booking 12-18 months before your wedding date.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-en="Do you work with budgets of all sizes?" data-ar="هل تعملون مع جميع الميزانيات؟">Do you work with budgets of all sizes?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-en="Absolutely. We work with a wide range of budgets and will tailor our services to maximize value within your means." data-ar="بالتأكيد. نعمل مع مجموعة واسعة من الميزانيات وسنقوم بتخصيص خدماتنا لتحقيق أقصى قيمة ضمن إمكانياتك.">Absolutely. We work with a wide range of budgets and will tailor our services to maximize value.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-en="Can you plan a destination wedding?" data-ar="هل يمكنكم تخطيط حفل زفاف في الخارج؟">Can you plan a destination wedding?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-en="Yes! Destination weddings are one of our specialties. We have an extensive network of trusted vendors worldwide." data-ar="نعم! حفلات الزفاف في الخارج هي إحدى تخصصاتنا. لدينا شبكة واسعة من الموردين الموثوقين حول العالم.">Yes! Destination weddings are one of our specialties. We have an extensive network of trusted vendors worldwide.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-en="What happens if it rains on my wedding day?" data-ar="ماذا يحدث إذا أمطرت في يوم زفافي؟">What happens if it rains on my wedding day?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-en="Every outdoor event we plan includes a comprehensive weather contingency plan. We monitor forecasts closely and have backup arrangements ready." data-ar="كل حدث خارجي نخطط له يتضمن خطة طوارئ شاملة للطقس. نراقب التوقعات عن كثب ولدينا ترتيبات بديلة جاهزة.">Every outdoor event includes a comprehensive weather contingency plan.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span data-en="Do you offer virtual consultations?" data-ar="هل تقدمون استشارات افتراضية؟">Do you offer virtual consultations?</span>
+                        <i class="fas fa-plus"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p data-en="Yes. We offer video consultations for couples who are planning from abroad or simply prefer the convenience." data-ar="نعم. نقدم استشارات بالفيديو للأزواج الذين يخططون من الخارج أو يفضلون الراحة.">Yes. We offer video consultations for couples planning from abroad or who prefer convenience.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== CTA BANNER ========== -->
+    <section class="cta-banner">
+        <div class="cta-bg"></div>
+        <div class="cta-overlay"></div>
+        <div class="container cta-content" data-reveal>
+            <h2 data-en="Your Dream Wedding Awaits" data-ar="حفل زفاف أحلامك ينتظرك">Your Dream Wedding Awaits</h2>
+            <p data-en="Let's create magic together. Book your private consultation today and take the first step toward an unforgettable celebration." data-ar="لنصنع السحر معاً. احجز استشارتك الخاصة اليوم واتخذ الخطوة الأولى نحو احتفال لا يُنسى.">Let's create magic together. Book your private consultation today.</p>
+            <a href="#contact" class="btn-luxury" data-en="Book Your Consultation" data-ar="احجز استشارتك">Book Your Consultation</a>
+        </div>
+    </section>
+
+    <!-- ========== CONTACT ========== -->
+    <section id="contact" class="contact">
+        <div class="container contact-grid">
+            <div class="contact-info" data-reveal>
+                <span class="section-overline" data-en="GET IN TOUCH" data-ar="تواصل معنا">GET IN TOUCH</span>
+                <h2 data-en="Let's Create Magic" data-ar="لنصنع السحر معاً">Let's Create Magic</h2>
+                <p data-en="Ready to start planning your dream wedding? Contact us today for a private consultation. We'll respond within 24 hours." data-ar="جاهز لبدء التخطيط لحفل زفاف أحلامك؟ تواصل معنا اليوم للحصول على استشارة خاصة. سنرد خلال 24 ساعة.">Ready to start planning your dream wedding? Contact us today for a private consultation.</p>
+
+                <div class="contact-details">
+                    <div>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:majesticaurawedding@gmail.com">majesticaurawedding@gmail.com</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-phone-alt"></i>
+                        <a href="tel:+201234567890">+20 123 456 7890</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span data-en="Cairo, Egypt — Serving Worldwide" data-ar="القاهرة، مصر — نخدم العالم أجمع">Cairo, Egypt — Serving Worldwide</span>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://www.instagram.com/majestic_aura_wedding" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/share/1GeBeHQXgY/" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/201234567890" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#" target="_blank" rel="noopener" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+                </div>
+            </div>
+
+            <div class="contact-form" data-reveal>
+                <form id="weddingForm" novalidate>
+                    <div class="form-row">
+                        <input type="text" name="name" placeholder="Your Name" data-en-placeholder="Your Name" data-ar-placeholder="الاسم بالكامل" required>
+                        <input type="email" name="email" placeholder="Your Email" data-en-placeholder="Your Email" data-ar-placeholder="البريد الإلكتروني" required>
+                    </div>
+                    <div class="form-row">
+                        <input type="tel" name="phone" placeholder="Phone Number" data-en-placeholder="Phone Number" data-ar-placeholder="رقم الهاتف">
+                        <input type="date" name="date" placeholder="Wedding Date" data-en-placeholder="Wedding Date" data-ar-placeholder="تاريخ الزفاف">
+                    </div>
+                    <select name="package">
+                        <option value="" data-en="Select a Package" data-ar="اختر الباقة">Select a Package</option>
+                        <option value="partial" data-en="Partial Planning" data-ar="تخطيط جزئي">Partial Planning</option>
+                        <option value="full" data-en="Full Planning" data-ar="تخطيط كامل">Full Planning</option>
+                        <option value="destination" data-en="Destination Wedding" data-ar="حفل زفاف في الخارج">Destination Wedding</option>
+                    </select>
+                    <textarea name="message" rows="5" placeholder="Tell us about your dream wedding..." data-en-placeholder="Tell us about your dream wedding..." data-ar-placeholder="أخبرنا عن حفل زفاف أحلامك..." required></textarea>
+                    <button type="submit" class="btn-luxury full-width" data-en="Send Inquiry" data-ar="إرسال الاستفسار">Send Inquiry</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer>
+        <div class="container footer-grid">
+            <div class="footer-brand">
+                <h3>Majestic Aura</h3>
+                <p data-en="Luxury wedding planning & concept design. Architecting unforgettable royal moments worldwide." data-ar="تخطيط وتصميم حفلات الزفاف الفاخرة. نهندس لحظات ملكية لا تُنسى حول العالم.">Luxury wedding planning & concept design. Architecting unforgettable royal moments worldwide.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4 data-en="Quick Links" data-ar="روابط سريعة">Quick Links</h4>
+                <ul>
+                    <li><a href="#about" data-en="About" data-ar="من نحن">About</a></li>
+                    <li><a href="#services" data-en="Services" data-ar="خدماتنا">Services</a></li>
+                    <li><a href="portfolio.html" data-en="Portfolio" data-ar="معرض أعمالنا">Portfolio</a></li>
+                    <li><a href="#pricing" data-en="Packages" data-ar="الباقات">Packages</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-newsletter">
+                <h4 data-en="Stay Inspired" data-ar="ابقَ ملهمًا">Stay Inspired</h4>
+                <p data-en="Subscribe for wedding inspiration and exclusive offers." data-ar="اشترك للحصول على إلهام الزفاف وعروض حصرية.">Subscribe for wedding inspiration and exclusive offers.</p>
+                <form class="newsletter-form" id="newsletterForm">
+                    <input type="email" placeholder="Your email" data-en-placeholder="Your email" data-ar-placeholder="بريدك الإلكتروني" required>
+                    <button type="submit" aria-label="Subscribe"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p data-en="&copy; 2026 <span>Majestic Aura</span>. All Rights Reserved. Designed for Luxury." data-ar="&copy; 2026 <span>ماجستيك أورا</span>. جميع الحقوق محفوظة. صُمم للفخامة.">&copy; 2026 <span>Majestic Aura</span>. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="https://wa.me/201234567890" class="whatsapp-float" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>

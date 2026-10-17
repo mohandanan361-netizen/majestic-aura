@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Majestic Aura Gallery — Explore our curated portfolio of luxury wedding designs.">
+    <title>Gallery | Majestic Aura Portfolio</title>
+
+    <link rel="stylesheet" href="portfolio.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Montserrat:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- ========== TOP BAR ========== -->
+    <header class="gallery-header">
+        <a href="index.html" class="back-btn" aria-label="Back to Home">
+            <i class="fas fa-arrow-left"></i>
+            <span data-en="Back to Home" data-ar="رجوع للرئيسية">Back to Home</span>
+        </a>
+
+      <div class="gallery-logo">
+    <div class="logo-frame">
+        <img src="logo.png" alt="Majestic Aura" class="logo-img">
+    </div>
+</div>
+
+        <button id="langToggle" class="lang-btn" aria-label="Switch Language">عربي</button>
+    </header>
+
+    <!-- ========== HERO ========== -->
+    <section class="gallery-hero">
+        <div class="gallery-hero-bg"></div>
+        <div class="gallery-hero-overlay"></div>
+
+        <div class="gallery-hero-content">
+            <span class="gallery-overline" data-en="OUR MASTERPIECES" data-ar="أعمالنا المميزة">OUR MASTERPIECES</span>
+            <h1 data-en="The Gallery" data-ar="المعرض">The Gallery</h1>
+            <p data-en="A curated collection of our finest designs — every detail crafted with precision and passion." data-ar="مجموعة منتقاة من أفضل تصاميمنا — كل تفصيلة مصنوعة بدقة وشغف.">A curated collection of our finest designs.</p>
+        </div>
+
+        <div class="scroll-hint">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- ========== FILTERS ========== -->
+    <section class="gallery-filters-section">
+        <div class="filters-wrapper">
+            <div class="filters-scroll" id="filtersScroll">
+
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-star"></i>
+                    <span data-en="All" data-ar="الكل">All</span>
+                </button>
+
+                <button class="filter-btn" data-filter="centerpiece">
+                    <i class="fas fa-seedling"></i>
+                    <span data-en="Centerpiece" data-ar="سنتربيس">Centerpiece</span>
+                </button>
+
+                <button class="filter-btn" data-filter="intro">
+                    <i class="fas fa-door-open"></i>
+                    <span data-en="Intro" data-ar="المدخل">Intro</span>
+                </button>
+
+                <button class="filter-btn" data-filter="kosha">
+                    <i class="fas fa-crown"></i>
+                    <span data-en="Kosha / Stage" data-ar="الكوشة / المسرح">Kosha / Stage</span>
+                </button>
+
+                <button class="filter-btn" data-filter="lights">
+                    <i class="fas fa-lightbulb"></i>
+                    <span data-en="Light System" data-ar="نظام الإضاءة">Light System</span>
+                </button>
+
+                <button class="filter-btn" data-filter="ceiling">
+                    <i class="fas fa-archway"></i>
+                    <span data-en="Ceiling / Roof" data-ar="الأسقف">Ceiling / Roof</span>
+                </button>
+
+                <button class="filter-btn" data-filter="table">
+                    <i class="fas fa-chair"></i>
+                    <span data-en="Table" data-ar="الطاولات">Table</span>
+                </button>
+
+                <button class="filter-btn" data-filter="terrace">
+                    <i class="fas fa-mountain-sun"></i>
+                    <span data-en="Terrace" data-ar="التيراس">Terrace</span>
+                </button>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== GALLERY GRID ========== -->
+    <section class="gallery-section">
+        <div class="gallery-container">
+
+            <!-- ========== CENTERPIECE ========== -->
+            <div class="gallery-item" data-category="centerpiece">
+                <img src="images/portfolio/centerpiece/centerpiece-1.jpg" alt="Centerpiece 1" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1478146896981-b80fe463b330?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Centerpiece" data-ar="سنتربيس">Centerpiece</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="centerpiece">
+                <img src="images/portfolio/centerpiece/centerpiece-2.jpg" alt="Centerpiece 2" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Centerpiece" data-ar="سنتربيس">Centerpiece</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="centerpiece">
+                <img src="images/portfolio/centerpiece/centerpiece-3.jpg" alt="Centerpiece 3" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1523438885200-e635ba2c371e?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Centerpiece" data-ar="سنتربيس">Centerpiece</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <!-- ========== INTRO ========== -->
+            <div class="gallery-item" data-category="intro">
+                <img src="images/portfolio/intro/intro-1.jpg" alt="Intro 1" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Intro" data-ar="المدخل">Intro</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="intro">
+                <img src="images/portfolio/intro/intro-2.jpg" alt="Intro 2" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1511578314322-379afb476865?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Intro" data-ar="المدخل">Intro</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <!-- ========== KOSHA ========== -->
+            <div class="gallery-item" data-category="kosha">
+                <img src="images/portfolio/kosha/kosha-1.jpg" alt="Kosha 1" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Kosha / Stage" data-ar="الكوشة / المسرح">Kosha / Stage</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="kosha">
+                <img src="images/portfolio/kosha/kosha-2.jpg" alt="Kosha 2" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Kosha / Stage" data-ar="الكوشة / المسرح">Kosha / Stage</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="kosha">
+                <img src="images/portfolio/kosha/kosha-3.jpg" alt="Kosha 3" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Kosha / Stage" data-ar="الكوشة / المسرح">Kosha / Stage</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <!-- ========== LIGHTS ========== -->
+            <div class="gallery-item" data-category="lights">
+                <img src="images/portfolio/lights/lights-1.jpg" alt="Lights 1" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Light System" data-ar="نظام الإضاءة">Light System</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="lights">
+                <img src="images/portfolio/lights/lights-2.jpg" alt="Lights 2" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1508997449629-303059a039c0?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Light System" data-ar="نظام الإضاءة">Light System</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="lights">
+                <img src="images/portfolio/lights/lights-3.jpg" alt="Lights 3" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Light System" data-ar="نظام الإضاءة">Light System</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <!-- ========== CEILING ========== -->
+            <div class="gallery-item" data-category="ceiling">
+                <img src="images/portfolio/ceiling/ceiling-1.jpg" alt="Ceiling 1" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1478147427282-58a87a120781?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Ceiling / Roof" data-ar="الأسقف">Ceiling / Roof</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="ceiling">
+                <img src="images/portfolio/ceiling/ceiling-2.jpg" alt="Ceiling 2" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1543165365-07232fe0b321?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Ceiling / Roof" data-ar="الأسقف">Ceiling / Roof</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <!-- ========== TABLE ========== -->
+            <div class="gallery-item" data-category="table">
+                <img src="images/portfolio/table/table-1.jpg" alt="Table 1" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Table" data-ar="الطاولات">Table</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="table">
+                <img src="images/portfolio/table/table-2.jpg" alt="Table 2" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Table" data-ar="الطاولات">Table</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <!-- ========== TERRACE ========== -->
+            <div class="gallery-item" data-category="terrace">
+                <img src="images/portfolio/terrace/terrace-1.jpg" alt="Terrace 1" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Terrace" data-ar="التيراس">Terrace</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+            <div class="gallery-item" data-category="terrace">
+                <img src="images/portfolio/terrace/terrace-2.jpg" alt="Terrace 2" loading="lazy"
+                     onerror="this.src='https://images.unsplash.com/photo-1519741497674-611481863552?w=800&q=80'">
+                <div class="gallery-item-overlay">
+                    <span class="gallery-item-cat" data-en="Terrace" data-ar="التيراس">Terrace</span>
+                    <i class="fas fa-search-plus"></i>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- ========== EMPTY STATE ========== -->
+        <div class="empty-state" id="emptyState" hidden>
+            <i class="fas fa-images"></i>
+            <p data-en="No images in this category yet." data-ar="لا توجد صور في هذه الفئة حتى الآن.">No images in this category yet.</p>
+        </div>
+    </section>
+
+    <!-- ========== CTA AT BOTTOM ========== -->
+    <section class="gallery-cta">
+        <div class="gallery-cta-content">
+            <h2 data-en="Ready to Create Your Masterpiece?" data-ar="مستعد لابتكار تحفتك الفنية؟">Ready to Create Your Masterpiece?</h2>
+            <p data-en="Let's design something extraordinary together." data-ar="لنصمم شيئاً استثنائياً معاً.">Let's design something extraordinary together.</p>
+            <a href="index.html#contact" class="btn-luxury" data-en="Start Your Journey" data-ar="ابدأ رحلتك">Start Your Journey</a>
+        </div>
+    </section>
+
+    <!-- ========== FOOTER ========== -->
+    <footer class="gallery-footer">
+        <p data-en="&copy; 2026 <span>Majestic Aura</span>. All Rights Reserved." data-ar="&copy; 2026 <span>ماجستيك أورا</span>. جميع الحقوق محفوظة.">&copy; 2026 <span>Majestic Aura</span>. All Rights Reserved.</p>
+    </footer>
+
+    <!-- ========== LIGHTBOX ========== -->
+    <div class="lightbox" id="lightbox" hidden>
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close">
+            <i class="fas fa-times"></i>
+        </button>
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="lightbox-content">
+            <img src="" alt="" id="lightboxImage">
+            <div class="lightbox-caption" id="lightboxCaption"></div>
+        </div>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
